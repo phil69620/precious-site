@@ -1,0 +1,122 @@
+
+img {
+    opacity: 0.5;
+    display: block;
+    width: 100%;
+    height: auto;
+    
+}
+.content {
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    font-size: 1.5rem;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+    width: 95%;
+    text-align: center;
+    padding: 5px 0;
+}
+/* style spéciale pour l'overlay 2 */
+.contentDead {
+    top: 2%;
+    left: 2%;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+.contentOne {
+    position: absolute;
+    top: 43%;
+    left:32%;
+    font-size: 1.5rem;
+    color:white;
+    text-shadow: 1px 1px 1px #000000;
+    font-weight: bold;
+    }
+    .titre {
+    position: absolute;
+    top: 43%;
+    left: 32%;
+    color:white;
+    font-size: 1.5rem;
+    opacity: 0;
+        
+    }
+    @media screen and (min-width: 768px) {
+        .contentOne {
+            top: 24%;
+            left: 28%;
+        }
+        .titre {
+            top: 24%;
+            left: 28%;
+        }
+    }
+
+    @media screen and (min-width: 996px) {
+        .contentOne {
+            top: 41%;
+            left: 33%;
+        }
+        .titre {
+            top: 41%;
+            left: 33%;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .content p {
+    margin: 0;
+}
+.number {
+    color: #fb6000;
+}
+/* hover portrait 1 */
+.portrait:hover img {
+    opacity: 1;
+}
+.portrait:hover .titre {
+    opacity: 1;
+}
+.portrait:hover .content {
+    opacity: 0;
+}
+.portrait:hover .contentOne {
+    opacity: 0;
+}
+
+/* hover portrait 2 */
+.portraitDeux:hover img {
+    opacity: 1;
+}
+.portraitDeux:hover .titre {
+    opacity: 1;
+}
+.portraitDeux:hover .content {
+    opacity: 0;
+}
+.portraitDeux:hover .contentOne {
+    opacity: 0;
+}
+/* hover portrait 3 */
+.portraitTrois:hover img {
+    opacity: 1;
+}
+.portraitTrois:hover .titre {
+    opacity: 1;
+}
+.portraitTrois:hover .content {
+    opacity: 0;
+}
+.portraitTrois:hover .contentOne {
+    opacity: 0;
+}
